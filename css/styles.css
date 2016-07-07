@@ -1,0 +1,163 @@
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+body {
+  background: #ffffff;
+  text-decoration: none;
+/*  color: #ABA399;*/
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+#wrapper {
+  width: 96%; 
+  max-width: 1300px;
+  margin: auto;
+/*  padding: 2%;*/
+}
+
+.clearfix, .filters {
+  overflow: auto;
+  width: 100%;
+}
+
+header {
+  margin-bottom: 0px;
+}
+
+header h1 {
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  height: 30px;
+  float: left;
+  display: inline;
+  font-size: 1.3em;
+  padding: 0px;
+  margin-right: 35px;
+  margin-bottom: 0px;
+  color: #00AEEF;
+}
+
+header nav h1 a:link {
+  color: #00AEEF;
+}
+
+header nav h1 a:active {
+  color: #00AEEF;
+}
+
+header nav h1 a:hover {
+  color: #00AEEF;
+}
+
+header nav h1 a:visited {
+  color: #00AEEF;
+}
+
+
+
+header nav {
+  float: left;
+
+}
+
+
+header nav li {
+  margin-top: 14px;
+  font-size: 1.3em;
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 0px;
+
+}
+
+header nav li a:link {
+  color: #ABA399;
+}
+
+header nav li a:visited {
+  color: #ABA399;
+}
+
+header nav li a:hover {
+  color: #999;
+}
+
+header nav li a:active {
+  color: #999;
+}
+
+
+#triangle-up {
+  clear: both;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 17px solid #a7a399;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 265px;
+}
+
+.bubble {
+  clear:both;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #a7a399;
+  margin-top: 0px;
+  padding-top: 1px;
+  margin-bottom: 20px;
+}
+
+.bubble li {
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+.filters {
+  margin-top: 7px;
+  padding-left: 15px;
+}
+
+.project {
+  height: 35px;
+  width: 100%;
+  background-color: #f1f0ed;
+  font-size: 1em;
+  color: #999;
+  border-radius: 5px;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  padding-left: 15px;
+  padding-top: 3px;
+  margin-bottom: 5px;
+}
+
+.description
+
