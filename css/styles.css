@@ -13,18 +13,22 @@ body {
 
 a:link {
   text-decoration: none;
+  color: #00AEEF;
 }
 
 a:hover {
   text-decoration: none;
+  color: #00AEEF;
 }
 
 a:active {
   text-decoration: none;
+  color: #00AEEF;
 }
 
 a:visited {
   text-decoration: none;
+  color: #00AEEF;
 }
 
 
@@ -52,32 +56,20 @@ header h1 {
   display: inline;
   font-size: 1.3em;
   padding: 0px;
-  margin-right: 35px;
+  margin-right: 65px;
   margin-bottom: 0px;
   color: #00AEEF;
 }
 
-header nav h1 a:link {
-  color: #00AEEF;
-}
-
-header nav h1 a:active {
-  color: #00AEEF;
-}
-
-header nav h1 a:hover {
-  color: #00AEEF;
-}
-
-header nav h1 a:visited {
-  color: #00AEEF;
-}
-
-
 
 header nav {
   float: left;
+}
 
+header nav ul {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 
@@ -87,7 +79,6 @@ header nav li {
   display: inline;
   margin-right: 20px;
   margin-bottom: 0px;
-
 }
 
 header nav li a:link {
@@ -106,17 +97,45 @@ header nav li a:active {
   color: #999;
 }
 
+/*header nav h1 a:link {
+  color: #00AEEF;
+}
+
+header nav h1 a:active {
+  color: #00AEEF;
+}
+
+header nav h1 a:hover {
+  color: #00AEEF;
+}
+
+header nav h1 a:visited {
+  color: #00AEEF;
+}*/
+
 
 #triangle-up {
   clear: both;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 17px solid #a7a399;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 15px solid #a7a399;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 265px;
+  margin-left: 250px;
+}
+
+#triangle-up-contact {
+  clear: both;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 15px solid #a7a399;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 420px;
 }
 
 .bubble {
@@ -141,12 +160,52 @@ header nav li a:active {
   margin-right: 8px;
 }
 
+.bubble-contact {
+  clear:both;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #a7a399;
+  margin-top: 0px;
+  padding-top: 1px;
+  margin-bottom: 20px;
+}
+
+.bubble-contact li {
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+
+
 .filters {
   margin-top: 7px;
   padding-left: 15px;
 }
 
 .project {
+  clear: both;
+  text-decoration: none;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.projectContent {
+  clear: both;
+  text-decoration: none;
+  width: 100%;
+  padding-right: 27px;
+  margin: 0px;
+}
+
+.projectTitle {
   height: 35px;
   width: 100%;
   background-color: #f1f0ed;
@@ -159,5 +218,117 @@ header nav li a:active {
   margin-bottom: 5px;
 }
 
-.description
 
+.descr {
+  clear: both;
+  float: left;
+  width: 30%;
+  font-size: .9em;
+  color: #ABA399;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.slideshow {
+  float: left;
+  width: 65%;
+  margin-left: 25px;
+}
+
+.slide {
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #a7a399;
+  font-size: 20px;
+}
+
+/*.slick-prev.slick-arrow {
+  text-decoration: none;
+  color: #a7a399;
+
+}*/
+
+#map {
+  width: 65%;
+}
+
+
+@media screen and (max-width: 700px) {
+  /*Navigation*/
+ 
+
+.descr {
+  clear: both;
+  float: left;
+  width: 100%;
+  font-size: .9em;
+  color: #ABA399;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.slideshow {
+  float: left;
+  width: 93%;
+  margin-left: 35px;
+}
+
+header nav {
+  clear: both;
+}
+
+#triangle-up {
+  clear: both;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 15px solid #a7a399;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+#triangle-up-contact {
+  clear: both;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 15px solid #a7a399;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 180px;
+}
+
+.bubble {
+  clear:both;
+  height: 235px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #a7a399;
+  margin-top: 0px;
+  padding-top: 1px;
+  margin-bottom: 20px;
+}
+
+.bubble li {
+  clear: both;
+  display: inline;
+  padding-right: 10px;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+
+.filters {
+  margin-top: 7px;
+  padding-left: 15px;
+}
