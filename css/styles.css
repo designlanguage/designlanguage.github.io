@@ -31,13 +31,16 @@ a:visited {
   color: #00AEEF;
 }
 
-
-
 #wrapper {
   width: 96%; 
   max-width: 1300px;
   margin: auto;
 /*  padding: 2%;*/
+}
+
+
+.mix{
+  display: none;
 }
 
 .clearfix, .filters {
@@ -149,15 +152,18 @@ header nav h1 a:visited {
   margin-bottom: 20px;
 }
 
-.bubble li {
+.bubble button {
   float: left;
   display: inline;
   padding-right: 10px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
-  margin-right: 8px;
+  margin-right: 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
 
 .bubble-contact {
@@ -259,12 +265,32 @@ header nav h1 a:visited {
 @media screen and (max-width: 700px) {
   /*Navigation*/
  
+header h1 {
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  height: 30px;
+  float: left;
+  display: inline;
+  font-size: 1.5em;
+  padding: 0px;
+  margin-right: 65px;
+  margin-bottom: 0px;
+  color: #00AEEF;
+}
+
+header nav li {
+  margin-top: 14px;
+  font-size: 1.5em;
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
 
 .descr {
   clear: both;
   float: left;
   width: 100%;
-  font-size: .9em;
+  font-size: 1.4em;
   color: #ABA399;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -307,7 +333,7 @@ header nav {
 
 .bubble {
   clear:both;
-  height: 235px;
+  height: 330px;
   width: 100%;
   border-radius: 5px;
   background-color: #a7a399;
@@ -316,19 +342,36 @@ header nav {
   margin-bottom: 20px;
 }
 
-.bubble li {
+.bubble button {
   clear: both;
   display: inline;
   padding-right: 10px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 8px;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
+
 
 
 .filters {
   margin-top: 7px;
   padding-left: 15px;
+}
+
+.projectTitle {
+  height: 45px;
+  width: 100%;
+  background-color: #f1f0ed;
+  font-size: 1.4em;
+  color: #999;
+  border-radius: 5px;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  padding-left: 15px;
+  padding-top: 3px;
+  margin-bottom: 5px;
 }

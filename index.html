@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Design Language</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css">
     <!-- for slick.js -->
@@ -28,18 +29,20 @@
       </header>
       <div id="triangle-up"></div>
       <div class="bubble">
-        <ul class="filters">
-          <li data-filter=".branding">Branding</li>
-          <li data-filter=".illustration">Illustration</li>
-          <li data-filter=".dataviz">Data viz</li>
-          <li idata-filter=".interactive">Interactive</li>
-          <li data-filter=".animation">Animation</li>
-          <li data-filter=".print">Print</li>
-          <li data-filter=".signage">Signage</li>
-        </ul> 
+        <div class="filters">
+<!--           <button class="filter" data-filter="all">All</button> -->
+          <button class="filter" data-filter=".branding">Branding</button>
+          <button class="filter" data-filter=".illustration">Illustration</button>
+          <button class="filter" data-filter=".dataviz">Data viz</button>
+          <button class="filter" data-filter=".interactive">Interactive</button>
+          <button class="filter" data-filter=".animation">Animation</button>
+          <button class="filter" data-filter=".print">Print</button>
+          <button class="filter" data-filter=".signage">Signage</button>
+        </div> 
       </div>
 
-      <div class="project">
+      <div id="projects">
+        <div class="project mix print">
         <div class="projectTitle">
           The World Bank
         </div>
@@ -70,7 +73,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project mix print">
         <div class="projectTitle">
           The Way to Go
         </div>
@@ -98,7 +101,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project mix branding">
         <div class="projectTitle">
           DotGov Design Conference
         </div>
@@ -117,7 +120,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project mix dataviz">
         <div class="projectTitle">
           iPad UI Study
         </div>
@@ -139,7 +142,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project mix branding">
         <div class="projectTitle">
           VH1
         </div>
@@ -155,7 +158,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project mix dataviz">
         <div class="projectTitle">
           The Guardian
         </div>
@@ -174,7 +177,7 @@
         </div>
       </div>
 
-      <div class="project">
+      <div class="project mix illustration">
         <div class="projectTitle">
           United Nations
         </div>
@@ -203,8 +206,16 @@
       </div>
 
 
+
+      </div>
+
+      
+      
+
+
     </div>
     <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/mixitup.js"></script>
     <script src="js/index.js"></script>
     <!-- for slick.js -->
 <!--     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

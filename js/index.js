@@ -1,6 +1,16 @@
 $(function(){
 
-    $('.slideshow').slick({});
+  $('.slideshow').slick({});
+
+  $('#projects').mixItUp();
+
+
+  jQuery('button').click(function(){
+     jQuery(this).toggleClass('active');
+  });
+
+
+
 
   // var projectArray = [
   //   { image: "http://payload334.cargocollective.com/1/4/139376/8996854/WDRInside_1000.jpg",
