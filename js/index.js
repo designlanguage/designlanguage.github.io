@@ -4,13 +4,12 @@ $(function(){
 
   $('#projects').mixItUp();
 
-
-  jQuery('button').click(function(){
-     jQuery(this).toggleClass('active');
-  });
-
+jQuery('filter').click(function(){
+   jQuery(this).toggleClass('active');
+});
 
 
+  // *** This was a failed attempt to custom-write filtering.
 
   // var projectArray = [
   //   { image: "http://payload334.cargocollective.com/1/4/139376/8996854/WDRInside_1000.jpg",
@@ -50,6 +49,5 @@ $(function(){
 
   // var filteredArrays = projectfilter("branding");
 
-  
 
 });

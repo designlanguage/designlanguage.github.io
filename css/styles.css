@@ -7,8 +7,7 @@
 body {
   background: #ffffff;
   text-decoration: none;
-/*  color: #ABA399;*/
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
 }
 
 a:link {
@@ -35,7 +34,6 @@ a:visited {
   width: 96%; 
   max-width: 1300px;
   margin: auto;
-/*  padding: 2%;*/
 }
 
 
@@ -48,12 +46,17 @@ a:visited {
   width: 100%;
 }
 
+
+
+
+/*Top Nav*/
+
 header {
   margin-bottom: 0px;
 }
 
 header h1 {
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
   height: 30px;
   float: left;
   display: inline;
@@ -64,7 +67,6 @@ header h1 {
   color: #00AEEF;
 }
 
-
 header nav {
   float: left;
 }
@@ -74,7 +76,6 @@ header nav ul {
   margin-left: 0px;
   padding: 0px;
 }
-
 
 header nav li {
   margin-top: 14px;
@@ -93,29 +94,17 @@ header nav li a:visited {
 }
 
 header nav li a:hover {
-  color: #999;
+  color: #666666;
 }
 
 header nav li a:active {
   color: #999;
 }
 
-/*header nav h1 a:link {
-  color: #00AEEF;
-}
 
-header nav h1 a:active {
-  color: #00AEEF;
-}
 
-header nav h1 a:hover {
-  color: #00AEEF;
-}
 
-header nav h1 a:visited {
-  color: #00AEEF;
-}*/
-
+/*Filters*/
 
 #triangle-up {
   clear: both;
@@ -126,7 +115,7 @@ header nav h1 a:visited {
   border-bottom: 15px solid #a7a399;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 250px;
+  margin-left: 253px;
 }
 
 #triangle-up-contact {
@@ -156,6 +145,48 @@ header nav h1 a:visited {
   float: left;
   display: inline;
   padding-right: 10px;
+  color: #d6d6d6;
+  font-size: 1.1em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.filter:hover {
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  color: #666666;
+  font-size: 1.1em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.filter:active {
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  color: #666666;
+  font-size: 1.1em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.filter.active {
+  float: left;
+  display: inline;
+  padding-right: 10px;
   color: white;
   font-size: 1.1em;
   margin-top: 0px;
@@ -182,18 +213,21 @@ header nav h1 a:visited {
   display: inline;
   padding-right: 10px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 8px;
 }
 
-
-
 .filters {
   margin-top: 7px;
   padding-left: 15px;
 }
+
+
+
+
+/*Portfolio projects*/
 
 .project {
   clear: both;
@@ -218,12 +252,11 @@ header nav h1 a:visited {
   font-size: 1em;
   color: #999;
   border-radius: 5px;
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
   padding-left: 15px;
   padding-top: 3px;
   margin-bottom: 5px;
 }
-
 
 .descr {
   clear: both;
@@ -251,22 +284,22 @@ header nav h1 a:visited {
   font-size: 20px;
 }
 
-/*.slick-prev.slick-arrow {
-  text-decoration: none;
-  color: #a7a399;
 
-}*/
+/* Map for contact page */
 
 #map {
   width: 65%;
 }
 
 
+
+/* Responsize styles for smaller screens */
+
 @media screen and (max-width: 700px) {
-  /*Navigation*/
+
  
 header h1 {
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
   height: 30px;
   float: left;
   display: inline;
@@ -328,12 +361,12 @@ header nav {
   border-bottom: 15px solid #a7a399;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 180px;
+  margin-left: 200px;
 }
 
 .bubble {
   clear:both;
-  height: 330px;
+  height: 260px;
   width: 100%;
   border-radius: 5px;
   background-color: #a7a399;
@@ -346,8 +379,8 @@ header nav {
   clear: both;
   display: inline;
   padding-right: 10px;
-  color: white;
-  font-size: 1.4em;
+  color: #d6d6d6;
+  font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 8px;
@@ -370,7 +403,7 @@ header nav {
   font-size: 1.4em;
   color: #999;
   border-radius: 5px;
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, serif;
+  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
   padding-left: 15px;
   padding-top: 3px;
   margin-bottom: 5px;
