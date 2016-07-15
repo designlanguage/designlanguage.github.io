@@ -150,7 +150,7 @@ header nav li a:active {
   font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 8px;
   border: none;
   background-color: transparent;
   outline: none;
@@ -164,7 +164,7 @@ header nav li a:active {
   font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 8px;
   border: none;
   background-color: transparent;
   outline: none;
@@ -178,7 +178,7 @@ header nav li a:active {
   font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 8px;
   border: none;
   background-color: transparent;
   outline: none;
@@ -192,7 +192,7 @@ header nav li a:active {
   font-size: 1.1em;
   margin-top: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 8px;
   border: none;
   background-color: transparent;
   outline: none;
@@ -304,118 +304,327 @@ header nav li a:active {
 
 
 
+
+@media only screen and (min-width: 504px) and (max-width: 700px) {
+
+  .bubble {
+    clear:both;
+    height: 90px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #a7a399;
+    margin-top: 0px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+  }
+
+  .bubble button {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #d6d6d6;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter:hover {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #666666;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter:active {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #666666;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter.active {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 503px) {
+
+  .bubble {
+    clear:both;
+    height: 90px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #a7a399;
+    margin-top: 0px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+  }
+
+  .bubble button {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #d6d6d6;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  #triangle-up {
+    clear: both;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 15px solid #a7a399;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  .filter:hover {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #666666;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter:active {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #666666;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter.active {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+}
+
+
+
+
+
+
+
 /* Responsize styles for smaller screens */
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
 
- 
-header h1 {
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
-  height: 30px;
-  float: left;
-  display: inline;
-  font-size: 1.5em;
-  padding: 0px;
-  margin-right: 65px;
-  margin-bottom: 0px;
-  color: #00AEEF;
-}
+   
+  header h1 {
+    font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
+    height: 30px;
+    float: left;
+    display: inline;
+    font-size: 1.5em;
+    padding: 0px;
+    margin-right: 65px;
+    margin-bottom: 0px;
+    color: #00AEEF;
+  }
 
-header nav li {
-  margin-top: 14px;
-  font-size: 1.4em;
-  display: inline;
-  margin-right: 20px;
-  margin-bottom: 0px;
-}
-
-
-.descr {
-  clear: both;
-  float: left;
-  width: 100%;
-  font-size: 1.2em;
-  color: #ABA399;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-left: 15px;
-}
-
-.slideshow {
-  float: left;
-  width: 93%;
-  margin-left: 35px;
-}
-
-header nav {
-  clear: both;
-}
-
-#triangle-up {
-  clear: both;
-  width: 0;
-  height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-bottom: 15px solid #a7a399;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 20px;
-}
-
-#triangle-up-contact {
-  clear: both;
-  width: 0;
-  height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-bottom: 15px solid #a7a399;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 200px;
-}
-
-.bubble {
-  clear:both;
-  height: 260px;
-  width: 100%;
-  border-radius: 5px;
-  background-color: #a7a399;
-  margin-top: 0px;
-  padding-top: 1px;
-  margin-bottom: 20px;
-}
-
-.bubble button {
-  clear: both;
-  display: inline;
-  padding-right: 10px;
-  color: #d6d6d6;
-  font-size: 1.1em;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 8px;
-  border: none;
-  background-color: transparent;
-  outline: none;
-}
+  header nav li {
+    margin-top: 14px;
+    font-size: 1.4em;
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
 
 
+  .descr {
+    clear: both;
+    float: left;
+    width: 100%;
+    font-size: 1.2em;
+    color: #ABA399;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
 
-.filters {
-  margin-top: 7px;
-  padding-left: 15px;
-}
+  .slideshow {
+    float: left;
+    width: 93%;
+    margin-left: 35px;
+  }
 
-.projectTitle {
-  height: 45px;
-  width: 100%;
-  background-color: #f1f0ed;
-  font-size: 1.3em;
-  color: #999;
-  border-radius: 5px;
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
-  padding-left: 15px;
-  padding-top: 3px;
-  margin-bottom: 5px;
+  header nav {
+    clear: both;
+  }
+
+  #triangle-up {
+    clear: both;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 15px solid #a7a399;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  #triangle-up-contact {
+    clear: both;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 15px solid #a7a399;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+  }
+
+  .bubble {
+    clear:both;
+    height: 270px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #a7a399;
+    margin-top: 0px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+  }
+
+  .bubble button {
+    clear: both;
+    display: inline;
+    padding-right: 10px;
+    color: #d6d6d6;
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter:hover {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #666666;
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter:active {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: #666666;
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .filter.active {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+
+  .filters {
+    margin-top: 7px;
+    padding-left: 15px;
+  }
+
+  .projectTitle {
+    height: 45px;
+    width: 100%;
+    background-color: #f1f0ed;
+    font-size: 1.3em;
+    color: #999;
+    border-radius: 5px;
+    font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
+    padding-left: 15px;
+    padding-top: 3px;
+    margin-bottom: 5px;
+  }
+
 }
