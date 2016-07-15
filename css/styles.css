@@ -65,6 +65,7 @@ header h1 {
   padding: 0px;
   margin-right: 65px;
   margin-bottom: 0px;
+  margin-top: 10px;
   color: #00AEEF;
 }
 
@@ -305,7 +306,7 @@ header nav li a:active {
 
 
 
-@media only screen and (min-width: 504px) and (max-width: 700px) {
+@media only screen and (min-width: 551px) and (max-width: 700px) {
 
   .bubble {
     clear:both;
@@ -381,7 +382,34 @@ header nav li a:active {
 
 
 
-@media only screen and (min-width: 401px) and (max-width: 503px) {
+@media only screen and (min-width: 401px) and (max-width: 550px) {
+
+
+  header h1 {
+    font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2, sans-serif;
+    height: 30px;
+    float: left;
+    display: inline;
+    font-size: 1.3em;
+    padding: 0px;
+    margin-right: 65px;
+    margin-bottom: 0px;
+    color: #00AEEF;
+  }
+
+  header nav li {
+    margin-top: 14px;
+    font-size: 1.3em;
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+
+
+  header nav {
+    clear: both;
+  }
+
 
   .bubble {
     clear:both;
@@ -462,6 +490,26 @@ header nav li a:active {
     outline: none;
   }
 
+ .descr {
+    clear: both;
+    float: left;
+    width: 100%;
+    font-size: 1.1em;
+    color: #ABA399;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .slideshow {
+    float: left;
+    width: 93%;
+    margin-left: 35px;
+  }
+
+
+
+
 }
 
 
@@ -495,23 +543,6 @@ header nav li a:active {
     margin-bottom: 0px;
   }
 
-
-  .descr {
-    clear: both;
-    float: left;
-    width: 100%;
-    font-size: 1.2em;
-    color: #ABA399;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding-left: 15px;
-  }
-
-  .slideshow {
-    float: left;
-    width: 93%;
-    margin-left: 35px;
-  }
 
   header nav {
     clear: both;
@@ -607,6 +638,24 @@ header nav li a:active {
     background-color: transparent;
     outline: none;
   }
+
+ .descr {
+    clear: both;
+    float: left;
+    width: 100%;
+    font-size: 1.2em;
+    color: #ABA399;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .slideshow {
+    float: left;
+    width: 93%;
+    margin-left: 35px;
+  }
+
 
 
   .filters {
